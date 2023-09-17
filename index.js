@@ -42,8 +42,7 @@ const generateRandomString = length => {
     const state = generateRandomString(16);
     res.cookie(stateKey, state);
   
-    // these scopes give us access to details about currently logged-in user's account and their email 
-    const scope = 'user-read-private user-read-email';
+    const scope = 'user-read-private user-read-email ugc-image-upload playlist-modify-private playlist-modify-public user-top-read';
   
     const queryParams = querystring.stringify({
       client_id: CLIENT_ID,
