@@ -24,5 +24,3 @@
     - useMemo hook only runs when one of its dependencies update 
 
 
-- LAST TOUCHED (Sept 8, 2023) - Module 5 Lesson 5 
-
